@@ -804,10 +804,10 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-image: url("../images/banner.png");
+		background-position: top center;
+		background-repeat: repeat;
+		background-size: auto;
 		color: white;
 		cursor: default;
 		padding: 6em 0;
@@ -825,7 +825,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			/*background: rgba(52, 27, 43, 0.5);*/
 			color: white;
 			display: inline-block;
 			opacity: 0;
@@ -835,13 +835,13 @@
 
 			#banner .inner header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
+				/*border-bottom: solid 2px;
+				border-top: solid 2px;*/
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
 
-				#banner .inner header h2 {
+				/*#banner .inner header h2 {
 					border-bottom: solid 2px;
 					border-top: solid 2px;
 					font-size: 2.5em;
@@ -851,7 +851,17 @@
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
-				}
+				}*/
+
+        #banner .inner header h2 {
+          font-size: 1em;
+          font-weight: 500;
+          letter-spacing: 0.1em;
+          margin: 0;
+          position: relative;
+          text-transform: none;
+          line-height: normal;
+        }
 
 			#banner .inner p {
 				letter-spacing: 0.1em;
@@ -904,7 +914,7 @@
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.png");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -1102,3 +1112,11 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+    .bannerfont {
+      text-transform: none !important;
+      font-weight: 500 !important;
+      font-size: 1em !important;
+      letter-spacing: 0em;
+      line-height: normal;
+    }
