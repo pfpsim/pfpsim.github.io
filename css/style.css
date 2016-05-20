@@ -1182,3 +1182,11 @@
 .flowsvg {
   cursor:pointer ;
 }
+
+.svg-path svg:hover #glow { // stroke works fine, filter doesn't work
+  stroke: black;
+  filter: url(#blur-filter);
+}
+.svg-path svg:hover #color {
+  stroke: black;
+}
