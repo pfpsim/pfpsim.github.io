@@ -49,8 +49,9 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-      color:#1e9f8b
-		}
+      			color:#1e9f8b;
+ 			cursor: pointer;
+	}
 
 	strong, b {
 		font-weight: 400;
