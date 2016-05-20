@@ -1198,3 +1198,8 @@
   display:block;
   height: auto;
 }
+
+.centerimg {
+    display: block;
+    margin: 0 auto;
+}
