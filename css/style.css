@@ -1211,3 +1211,6 @@
 	cursor: pointer !important; 
 	cursor: hand !important;	
 }
+.center { 
+    text-align:center;
+}
