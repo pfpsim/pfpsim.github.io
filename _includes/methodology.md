@@ -5,8 +5,9 @@ and of programmable forwarding plane hardware such as NPUs and reconfigurable pi
 PFPSim aims to enable early co-design of forwarding plane platforms and applications, through an intuitive
 toolchain that makes it easy to create, modify and debug simulation models.
 
+
 <br\>
-<img src ="https://cloud.githubusercontent.com/assets/943241/15301816/b68a5886-1b7d-11e6-8062-84567ca96456.PNG" class = "responsiveimg">
+<img src ="https://cloud.githubusercontent.com/assets/943241/15301816/b68a5886-1b7d-11e6-8062-84567ca96456.PNG" class = "responsiveimg" style="text-align:center;">
 
 
 The dataplane application and target architecture model are independent of each other, but can be optimized
