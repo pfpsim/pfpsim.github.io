@@ -1178,3 +1178,7 @@
 .icon.featured {
   opacity: 0.8 !important;
 }
+
+.flowsvg {
+  cursor:pointer ;
+}
