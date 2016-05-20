@@ -1,14 +1,12 @@
 # Site settings
-title: Twenty Blog
-email: your-email@domain.com
+title: PFPSIM
+email: pfpsim.help@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
+  PFPSim is a host-compiled simulation framework for early validation and analysis of packet processing applications on programmable forwarding plane architectures. Simulation models are automatically generated from a high-level description of the hardware/software architecture of the forwarding device, written in FAD, and the behavioural description of the various modules in the architecture, written in C++/SystemC. Our FAD language is capable of defining many-core network processors as well as reconfigurable pipelines.
+  Application developers can use PFPSim as a virtual prototype to simulate and debug their applications before hardware availability. Hardware architects can use PFPSim to evaluate the trade-offs between different hardware/software design decisions.
+  baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://locahost:4000" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  uaftab
 
 # Build settings
 markdown: kramdown
