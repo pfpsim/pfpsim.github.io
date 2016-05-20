@@ -4,9 +4,10 @@ new programming paradigms such as [P4](http://p4.org) and [POF](http://www.pofor
 and of programmable forwarding plane hardware such as NPUs and reconfigurable pipelines.
 PFPSim aims to enable early co-design of forwarding plane platforms and applications, through an intuitive
 toolchain that makes it easy to create, modify and debug simulation models.
+
 <br\>
-<!-- ![methodology](https://cloud.githubusercontent.com/assets/943241/15301816/b68a5886-1b7d-11e6-8062-84567ca96456.PNG) -->
 <img src ="https://cloud.githubusercontent.com/assets/943241/15301816/b68a5886-1b7d-11e6-8062-84567ca96456.PNG" class = "responsiveimg">
+
 
 The dataplane application and target architecture model are independent of each other, but can be optimized
 based on their interaction. An example application might consist of parsing followed by the execution of a
