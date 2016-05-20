@@ -1207,3 +1207,7 @@
     display: block;
     margin: 0 auto;
 }
+.links { 
+	cursor: pointer; 
+	cursor: hand;	
+}
