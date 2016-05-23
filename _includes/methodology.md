@@ -6,11 +6,11 @@ PFPSim enables pre-silicon co-design and co-optimization of programmable forward
 <img src ="https://raw.githubusercontent.com/pfpsim/pfpsim.github.io/master/images/banner-image.png" class = "responsiveimg centerimg">
 
 PFPSim offers 3 key benefits to programmable forwarding plane developers:
-
+<p>
 1. Hardware developers can leverage automatic model generation to minimize manual development of complex switch models. 
-
+<br>
 2. Hardware architects can leverage fast and scalable host-compiled simulation to explore architecture optimizations and perform pre-silicon what-if analysis.
-
+<br>
 3. Application developers can debug and optimize their application on the target model before silicon availability, thereby significantly reducing deployment time.
-
+</p>
 Best of all, the PFPSim simulation tools are free and open-source under the GPLv2 license. We invite you to download PFPSim and get started with our example models!
