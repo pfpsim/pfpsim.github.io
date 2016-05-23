@@ -1221,7 +1221,7 @@
 	background-position: top left, top right, top left, bottom center;
 	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 	background-size: 25em, 25em, auto, cover;
-	color: white;
+	color: black;
 	padding: 5em;
 	text-align: center;
 }
