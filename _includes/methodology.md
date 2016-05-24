@@ -4,6 +4,7 @@ Software-Defined Networking (SDN) enables centralized network control by physica
 
 <br>
 PFPSim enables pre-silicon co-design and co-optimization of programmable forwarding plane architecture and applications as seen in the figure above. The forwarding plane designer specifies a mapping between the application (written in P4, C or C++) and the forwarding architecture (described in a simple architecture description language). A model generator (pfpgen) auto-generates a host-compiled simulation binary from the forwarding plane specification. A powerful debugger (pfpdb) enables the designer to debug their application running on a model of the target architecture. The user can also program observers to generate interesting simulation metrics such as packet latency, memory footprint, power consumption etc. to guide pre-silicon optimization of both the application and the forwarding architecture.
+
 <br>
 PFPSim offers 3 key benefits to programmable forwarding plane developers:
 <p>
